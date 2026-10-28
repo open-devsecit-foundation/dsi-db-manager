@@ -1,0 +1,41 @@
+{
+  "name": "dsi-db-manager",
+  "version": "1.0.0",
+  "description": "Enterprise-grade offline-first database manager with dual local/server sync, millisecond conflict resolution, and multi-backend support (DSIAPI, Supabase, Firebase RTDB, Firestore, Neon, Direct MySQL, MongoDB)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/open-devsecit-foundation/dsi-db-manager.git"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./models": {
+      "import": "./dist/models/index.mjs",
+      "require": "./dist/models/index.js",
+      "types": "./dist/models/index.d.ts"
+    }
+  },
+  "keywords": [
+    "database",
+    "offline-first",
+    "sync",
+    "dsiapi",
+    "supabase",
+    "firebase",
+    "firestore",
+    "neon",
+    "mysql",
+    "mongodb",
+    "conflict-resolution",
+    "indexeddb",
+    "electron"
+  ],
+  "author": "Clinic Platform Dev Team",
+  "license": "MIT"
+}

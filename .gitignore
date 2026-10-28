@@ -1,0 +1,8 @@
+# Published Dependency Git Repository
+# NOTE: dist/ MUST be tracked in this repo so consumers can install directly from Git.
+
+node_modules/
+*.log
+.DS_Store
+Thumbs.db
+
